@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+.flexible{
+    display: flex;
+    padding-bottom: 150px;
+}
+span{
+    color: rgba(243, 69, 69, 0.849);
+}
+.front-size{
+    font-size: 50px;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,rgba(243, 69, 69, 0.849), tomato);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+}
+.half-width{
+    width:40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+} 
+.about-me{
+    background-image: url("photo/frame2.jpg");
+    background-repeat: no-repeat;
+    
+}
+.downaligne{
+    margin-top: 50%;
+} 
+#ladysize{
+   width:100%;
+   height: 100%;
+   margin-top:150px;
+
+
+}
+.middle{
+    width:50%;
+}
+.box{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    width:20%;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 5%;
+}
+.tri-width{
+    width:200px;
+    height:200px;
+    padding-left: 30px;
+}
+h3{
+    font: size 20px;
+}
+
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+
+}
